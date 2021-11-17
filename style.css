@@ -1,0 +1,107 @@
+.header, .header2 {
+    padding: 60px;
+    text-align: center;
+    background: #C27E65;
+    color: #F7D7CB;
+    font-size: 30px;
+  }
+  .header2{
+    padding: 30px;
+  }
+* {box-sizing: border-box;}
+img {
+  width: 100%;
+}
+.crop{
+    height: 500px;
+    object-fit: cover;
+}
+.animals, .aparitions, .flora {
+  display: flex;
+}
+.animals .left, .flora .left, .aparitions .right {
+  flex: 60%;
+}
+.animals .right, .flora .right {
+flex: 40%;
+padding: 80px;
+}
+
+.aparitions .left {
+  flex: 40%;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-wrap:wrap;
+  }
+.aparitions .left div {
+  flex:50%;
+  padding: 60px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    }
+  .about{
+    padding: 80px 70px;
+    background-color: #F7D7CB;
+  }
+  .booking{
+    padding: 80px 60px; 
+    background-color: #F59F7F; 
+  }
+  .flash{
+      padding:80px 75px;
+      background-color: #C27E65;
+  }
+  .gallery{
+      padding: 80px 66px;
+      background-color: #754C3D;
+  }
+  /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #F7D7CB;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #C27E65;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: right;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+      color: #F7D7CB;
+    background: #C27E65;
+    display: block;
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    
+  }
+  
+  /* Add a background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
