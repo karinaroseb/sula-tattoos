@@ -101,7 +101,27 @@ padding: 80px;
   
   /* Add a background color on mouse-over */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #e7c7bb;
     color: #754C3D;
+  }
+  div.wall {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+  
+  div.wall:hover {
+    border: 1px solid #777;
+  }
+  
+  div.wall img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
   }
   
