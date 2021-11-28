@@ -115,7 +115,7 @@ li{
   
   /* Style navigation menu links */
   .topnav a {
-    color: #C27E65;
+    color: #754C3D;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -251,7 +251,7 @@ li{
     font-family: 'Source Code Pro', monospace;
   }
   .caption span.border {
-    background-color: #754C3D;
+    background-color: #C27E65;
     color: #fff;
     padding: 18px;
     font-size: 25px;
