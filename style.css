@@ -243,13 +243,14 @@ li{
     width: 100%;
     text-align: center;
     color: #000;
+    font-family: 'Source Code Pro', monospace;
   }
   .caption span.border {
     background-color: #754C3D;
     color: #fff;
     padding: 18px;
     font-size: 25px;
-    letter-spacing: 8px;
+    letter-spacing: 3px;
     opacity: 1;
   }
 
@@ -265,6 +266,7 @@ li{
     color:#754C3D ;
     text-align:center;
     font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
   }
 
   /*lightbox min css*/
