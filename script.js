@@ -8,4 +8,6 @@ function myFunction() {
     }
   }
 
-  
+  lightbox.option({
+    'albumLabel': "Flash %1 of %2"
+  })
