@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Karma&family=Rasa&family=Source+Code+Pro:wght@300&display=swap');
-
-.header, .header2 {
-    padding: 60px;
+html{
+  font-family: 'Karma', serif;
+}
+.header{
+    padding: 30px;
     text-align: center;
     background: #C27E65;
     color: #F7D7CB;
     font-size: 30px;
     font-family: 'Rasa', serif;
-  }
-  .header2{
-    padding: 30px;
+    letter-spacing: 3px;
   }
 * {box-sizing: border-box;}
 img {
@@ -49,26 +49,49 @@ padding: 80px;
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 110%;
     cursor: pointer;
     margin: 0%;
+    font-family: 'Source Code Pro', monospace;
     }
   .about{
-    padding: 80px 70px;
+    padding: 80px 65px;
     background-color: #F7D7CB;
+    
   }
   .booking{
-    padding: 80px 60px; 
+    padding: 80px 55px; 
     background-color: #F59F7F; 
   }
   .flash{
-      padding:80px 75px;
+      padding:80px 65px;
       background-color: #C27E65;
   }
   .gallery{
-      padding: 80px 66px;
+      padding: 80px 55px;
       background-color: #754C3D;
   }
+.right{
+  display: flex;
+  flex-direction: column;
+}
+.contact{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 200%;
+  align-self:  center;
+
+}
+ul{
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 5px;
+  align-self: center;
+}
+li{
+  margin: 5px 0px;
+  max-width: 250px
+}
+
   /* Style the navigation menu */
 .topnav {
     overflow: hidden;
