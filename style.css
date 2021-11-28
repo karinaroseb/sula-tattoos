@@ -29,6 +29,12 @@ img {
 flex: 40%;
 padding: 80px;
 }
+.animals .right{
+  width: 360px;
+  align-self: center;
+  text-align: justify;
+  padding: 5%;
+}
 
 .aparitions .left {
   flex: 40%;
@@ -74,11 +80,13 @@ padding: 80px;
 .right{
   display: flex;
   flex-direction: column;
+
 }
 .contact{
   font-family: 'Source Code Pro', monospace;
   font-size: 200%;
   align-self:  center;
+  margin-top: 10%;
 
 }
 ul{
