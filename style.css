@@ -192,7 +192,7 @@ li{
     display: block;
     font-family: 'Source Code Pro', monospace;
   }
-  button, input[type=submit], input[type=reset] {
+  .form .submit button, input[type=submit], input[type=reset] {
     background-color: #C27E65;
     border: none;
     color: white;
