@@ -281,3 +281,38 @@ li{
   /* font-family: 'Karma', serif; body  
     font-family: 'Rasa', serif; title
     font-family: 'Source Code Pro', monospace; subtitle*/
+
+
+    @media only screen and (max-width: 767px) {
+      .animals .right{
+        display: block;
+        margin: 2%;
+      }
+      .animals .flora, .left{
+        display: none;
+      }
+      .aparitions .left{
+        display: none;
+      }
+      .aparitions .right img{
+      max-height: 300px;
+      }
+      ul{
+        max-width: 75%;
+      }
+      .flora .right{
+        margin-top: 0%;
+        padding-top: 40px;
+      }
+      div.wall {
+        flex: 1 0 40%;
+        }
+      .binfo{
+        max-width: 75%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      input[type=text] {
+        width: 350px;
+      }
+    }

@@ -7,7 +7,3 @@ function myFunction() {
       x.style.display = "block";
     }
   }
-
-  lightbox.option({
-    'albumLabel': "Flash %1 of %2"
-  })
