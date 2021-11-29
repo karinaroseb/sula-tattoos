@@ -315,4 +315,10 @@ li{
       input[type=text] {
         width: 350px;
       }
+      .artistblirb{
+        padding: 25px 50px ;
+      }
+      .caption span.border{
+        font-size: 20px;
+      }
     }
