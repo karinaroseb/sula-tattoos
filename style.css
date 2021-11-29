@@ -298,11 +298,11 @@ li{
       max-height: 300px;
       }
       ul{
-        max-width: 75%;
+        max-width: 80%;
       }
       .flora .right{
         margin-top: 0%;
-        padding-top: 40px;
+        padding: 40px;
       }
       div.wall {
         flex: 1 0 40%;
