@@ -20,6 +20,7 @@ img {
 .crop {
   height: 500px;
   object-fit: cover;
+  margin: 0;
 }
 .animals,
 .aparitions,
@@ -30,19 +31,12 @@ img {
 .flora .left,
 .aparitions .right {
   flex: 60%;
-}
-.aparitions .left a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  height: 100%;
-  width: 100%;
-  margin-top: 100px;
+  display: flex;
 }
 .animals .right,
 .flora .right {
   flex: 40%;
-  padding: 80px;
+  padding: 60px;
 }
 .animals .right {
   width: 360px;
@@ -52,25 +46,26 @@ img {
 }
 
 .aparitions .left {
-  /* flex: 40%;
-  display: flex;
-  flex-wrap: wrap; */
   flex: 400px;
   display: grid;
   grid-template-columns: 280px 280px;
 }
 .aparitions .left div {
   text-align: center;
+  margin: 40px;
+}
+.aparitions .left a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 110%;
+  height: 100%;
+  width: 100%;
+  margin-top: 80px;
 }
 .aparitions .left .button {
   margin: 0;
   padding: 0;
-  /* min-width: 230px;
-  min-height: 230px;
-  max-width: 400px;
-  max-height: 400px; */
-  /* margin-bottom: 20px;
-  margin-left: 20px; */
 }
 .button {
   border: none;
@@ -205,9 +200,7 @@ label {
   display: block;
   font-family: "Source Code Pro", monospace;
 }
-button,
-input[type="submit"],
-input[type="reset"] {
+button, input[type="submit"], input[type="reset"] {
   background-color: #c27e65;
   border: none;
   color: white;
@@ -217,11 +210,18 @@ input[type="reset"] {
   cursor: pointer;
   font-family: "Source Code Pro", monospace;
   margin-bottom: 20%;
+  border: 2px solid #c27e65;
 }
+button:hover, input[type="submit"], input[type="reset"] {
+  background-color: white;
+  color: #c27e65;
+border: 2px solid #c27e65;
+} 
 
 body,
 html {
   height: 100%;
+  margin: 0;
 }
 
 .parallax {
@@ -475,6 +475,9 @@ body.lb-disable-scrolling {
     flex: 240px;
     grid-template-columns: 210px 210px;
   }
+  .aparitions .left a {
+    margin-top: 50px;
+}
 }
 @media only screen and (max-width: 767px) {
   .animals .right {
