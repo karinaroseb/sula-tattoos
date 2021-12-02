@@ -2,80 +2,83 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>booking</title>
-   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-	<link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>booking</title>
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
-<!-- Top Navigation Menu -->
-<div class="topnav">
-   <div class="header">
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <div class="header">
       <h1>booking</h1>
+    </div>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="booking.html">booking</a>
+      <a href="flash.html">flash</a>
+      <a href="gallery.html">gallery</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-     <a href="index.html">home</a>
-   <a href="about.html">about</a>
-    <a href="booking.html">booking</a>
-    <a href="flash.html">flash</a>
-    <a href="gallery.html">gallery</a>
   </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-</div>
 
-<section class="infop">
-  <div class="binfo">
-    <p>  Fill out the survey below to book an appointment. You will get a text to discuss appointment times and confirm availability of desired flash piece. All designs are priced per piece based on size, location, and detail. A $100 non-refundable deposit is required via Venmo to hold your date for you. Deposit will be included in final cost. Designs won’t be repeated but variations of a design can be requested. 
-    </p>
-  </div>
-</section>
-
-
-<section class="form">
-  <form id="sula-form">
-    
-    <div class="input"> 
-      <label>Name</label>
-      <input type="text" name="name" placeholder="type here"/>
+  <section class="infop">
+    <div class="binfo">
+      <p> Fill out the survey below to book an appointment. You will get a text to discuss appointment times and confirm
+        availability of desired flash piece. All designs are priced per piece based on size, location, and detail. A
+        $100 non-refundable deposit is required via Venmo to hold your date for you. Deposit will be included in final
+        cost. Designs won’t be repeated but variations of a design can be requested.
+      </p>
     </div>
+  </section>
 
-    <div class="input">
-      <label>Phone Number</label>
-      <input type="text" name="phone_number" placeholder="type here"/>
-    </div>
-    
-    <div class="input">
-      <label>Number of desired flash piece</label>
-      <input type="text" name="flash_number" placeholder="type here"/>
-    </div>
-    
-    <div class="input">
-      <label>Size and Location of piece</label>
-      <input type="text" name="size_and_location" placeholder="type here"/>
-    </div>
 
-    <div class="input">
-      <label>Days of the week that work best</label>
-      <input type="text" name="best_days" placeholder="type here"/>
-    </div>
+  <section class="form">
+    <form id="sula-form">
 
-    <div class="submit">
-      <button type="submit" type=reset id="submit-form">Submit</button>
-    </div>
-  </form>
-</section>
-	<script src="script.js">
+      <div class="input">
+        <label>Name</label>
+        <input type="text" name="name" placeholder="type here" />
+      </div>
 
-	</script>
+      <div class="input">
+        <label>Phone Number</label>
+        <input type="text" name="phone_number" placeholder="type here" />
+      </div>
+
+      <div class="input">
+        <label>Number of desired flash piece</label>
+        <input type="text" name="flash_number" placeholder="type here" />
+      </div>
+
+      <div class="input">
+        <label>Size and Location of piece</label>
+        <input type="text" name="size_and_location" placeholder="type here" />
+      </div>
+
+      <div class="input">
+        <label>Days of the week that work best</label>
+        <input type="text" name="best_days" placeholder="type here" />
+      </div>
+
+      <div class="submit">
+        <button type="submit" type=reset id="submit-form">Submit</button>
+      </div>
+    </form>
+  </section>
+  <script src="script.js">
+
+  </script>
 </body>
 
 </html>
