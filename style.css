@@ -559,8 +559,7 @@ body.lb-disable-scrolling {
     margin: 2%;
   }
 
-  .animals .flora,
-  .left {
+  .animals .left, .flora .left {
     display: none;
   }
 
