@@ -314,11 +314,17 @@ html {
 }
 
 .artistblirb {
+  display: flex;
+  flex-direction: column;
   color: black;
   background-color: white;
-  text-align: center;
   padding: 50px 100px;
-  text-align: justify;
+  text-align: left;
+  align-items: center;
+}
+.para{
+  max-width: 750px;
+  align-self: center;
 }
 
 .artisttitle {
